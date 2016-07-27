@@ -96,7 +96,6 @@ CUFLAGS = -m 64
 
 ifdef CUDA_PATH
   ifndef GDK_INCLUDE_PATH
-    GDK_INCLUDE_PATH
     GDK_INCLUDE_PATH=/usr/include/nvidia/gdk
     $(info defaulting GDK_INCLUDE_PATH to $(GDK_INCLUDE_PATH))
   endif
